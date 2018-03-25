@@ -1,4 +1,4 @@
-__author__ ='Jacobcuber'
+__author__ ='Jacob Zhou'
 from lxml import etree
 import requests
 import math
@@ -182,7 +182,7 @@ def WCA_result_operate(comp_competitors , event):
 ##### Choose function here #####
 #cubingchina_result_operate('https://cubingchina.com/competition/China-Championship-2017/competitors' , '333')
 
-
-WCA_result_operate('https://www.worldcubeassociation.org/competitions/WC2017/registrations' , '333')
+if __name__ == "__main__"
+    WCA_result_operate('https://www.worldcubeassociation.org/competitions/WC2017/registrations' , '333')
 
 # event = 222 ; 333 ; 444 ; 555 ; 666 ; 777 ; 333bf ; 333fm ; 333oh ; 333ft ; minx ; pyram ; clock ; skewb ; sq1 ; 444bf ; 555bf ; 333mbf
